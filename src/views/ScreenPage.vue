@@ -40,7 +40,7 @@
                   ? 'icon-compress-alt'
                   : 'icon-expand-alt',
               ]"
-              :style="{ color: theme ? 'white' : 'black' }"
+              :style="{ color: theme === 'chalk' ? 'white' : 'black' }"
             ></span>
           </div>
         </div>
@@ -55,7 +55,7 @@
                   ? 'icon-compress-alt'
                   : 'icon-expand-alt',
               ]"
-              :style="{ color: theme ? 'white' : 'black' }"
+              :style="{ color: theme === 'chalk' ? 'white' : 'black' }"
             ></span>
           </div>
         </div>
@@ -70,7 +70,7 @@
                 'iconfont',
                 fullScreenStatus.map ? 'icon-compress-alt' : 'icon-expand-alt',
               ]"
-              :style="{ color: theme ? 'white' : 'black' }"
+              :style="{ color: theme === 'chalk' ? 'white' : 'black' }"
             ></span>
           </div>
         </div>
@@ -83,7 +83,7 @@
                 'iconfont',
                 fullScreenStatus.rank ? 'icon-compress-alt' : 'icon-expand-alt',
               ]"
-              :style="{ color: theme ? 'white' : 'black' }"
+              :style="{ color: theme === 'chalk' ? 'white' : 'black' }"
             ></span>
           </div>
         </div>
@@ -98,7 +98,7 @@
                 'iconfont',
                 fullScreenStatus.hot ? 'icon-compress-alt' : 'icon-expand-alt',
               ]"
-              :style="{ color: theme ? 'white' : 'black' }"
+              :style="{ color: theme === 'chalk' ? 'white' : 'black' }"
             ></span>
           </div>
         </div>
@@ -113,7 +113,7 @@
                   ? 'icon-compress-alt'
                   : 'icon-expand-alt',
               ]"
-              :style="{ color: theme ? 'white' : 'black' }"
+              :style="{ color: theme === 'chalk' ? 'white' : 'black' }"
             ></span>
           </div>
         </div>
